@@ -1,3 +1,122 @@
 .layout {
   display: block;
 }
+
+.hero-unit {
+  display: block;
+  position: relative;
+  height: 397px;
+  width: auto;
+  box-sizing: border-box;
+  background-color: rgb(218, 219, 241);
+  color: rgb(255, 255, 255);
+  font-family: "GT America Standart", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+  padding-bottom: 115px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 80px;
+  text-size-adjust: 100%;
+}
+
+.hero-unit_content {
+  position: relative;
+  box-sizing: border-box;
+  height: 202px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  max-width: 720px;
+  width: 720px;
+  z-index: 2;
+}
+
+.hero-unit_title {
+  box-sizing: border-box;
+  height: 120px;
+  width: 720px;
+  margin-bottom: 1rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  z-index: 3;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: -4px;
+  line-height: 120px;
+  text-align: center;
+  text-size-adjust: 100%;
+}
+
+.hero-unit_search-box {
+  box-sizing: border-box;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0em;
+  height: 66px;
+  width: 720px;
+  max-width: 720px;
+  z-index: 3;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#query {
+  box-sizing: border-box;
+  height: auto;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  width: 720px;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 32px;
+  text-align: start;
+  text-indent: 0px;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  word-spacing: 0px;
+  background-clip: padding-box;
+}
+
+#arrow-svg {
+  position: absolute;
+  /* bottom: -5px; */
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  right: 15px;
+  top: 50%;
+  /* height: 36.2344px; */
+  width: 28px;
+  z-index: 100;
+  /* vertical-align: middle; */
+  transform: translateY(-50%);
+  /* margin-bottom: 390px;
+  margin-right: 80px; */
+}
+
+#arrow-svg:hover {
+  fill: rgb(6, 75, 224);
+}
+
+.searchbar {
+  position: relative;
+}
