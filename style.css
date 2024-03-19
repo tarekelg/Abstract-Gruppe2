@@ -1,3 +1,100 @@
 .layout {
   display: block;
 }
+body {
+  margin: 0;
+}
+
+header {
+  font-family: "GT America Standard", sans-serif;
+  background-color: #000;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1900px;
+  margin: auto;
+  width: 90%;
+  background-color: #000;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.abstract-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+.abstract-link:hover {
+  opacity: 80%;
+  color: (0, 0, 0, 0.8);
+}
+
+.help-link {
+  border-left: 2px solid #fff;
+  margin: 0px 0 0 0.8rem;
+  padding: 2px 0 4px 0.8rem;
+}
+
+.help-link:hover {
+  text-decoration: underline;
+}
+
+nav div {
+  display: flex;
+}
+
+button {
+  font-family: "GT America Standard", sans-serif;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 6px 22px;
+  margin-left: 1rem;
+}
+
+.request-btn {
+  color: #fff;
+  background-color: #191a1b;
+  border: 1px solid #fff;
+}
+
+.signin-btn {
+  background: #4c5fd5;
+  color: #fff;
+  border-color: #4c5fd5;
+  border-style: none;
+}
+.signin-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.abstract-logo {
+  width: 38px;
+  height: 2rem;
+}
+
+.arrow-svg {
+  width: 3%;
+}
